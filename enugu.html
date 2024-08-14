@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title></title>
+</head>
+<body>
+	<div class="top">
+		<div class="left">
+			
+		</div>
+		<div class="mid">
+			<img onclick="showElement()" src="drop.png">
+		</div>
+		<div class="right">
+			
+		</div>
+	</div>
+	<div id="hiddenElement">
+		<div><img onclick="closeElement()" src="close.png"></div>
+        <div><span><a href="ebonyi.html">EBONYI</a></span> <span> <a href="anambra.html">ANAMBRA</a></span> <span> <a href="abia.html">ABIA</a></span> <span><a href="enugu.html">ENUGU</a></span></div>
+        <div><span><a href="imo.html">IMO</a></span> <span><a href="akwa.html">AKWA IBOM</a></span> <span><a href="rivers.html">RIVERS</a></span> <span><a href="criver.html">CROSS RIVER</a></span></div>
+        <div><span><a href="bayelsa.html">BAYELSA</a></span> <span><a href="Delta.html">DELTA</a></span> <span><a href="edo.html">EDO</a></span> <span>###</span></div>
+        <div><span>###</span> <span>###</span> <span>###</span> <span>###</span></div>
+        <div><span>###</span> <span>###</span> <span>###</span> <span>###</span></div>
+        <div><span>###</span> <span>###</span> <span>###</span> <span>###</span></div>
+        <div><span>###</span> <span>###</span> <span>###</span> <span>###</span></div>
+        <div><span>###</span> <span>###</span> <span>###</span> <span>###</span></div>
+        <div><span>###</span> <span>###</span> <span>###</span> <span>###</span></div>
+        <div><span>###</span> <span>###</span> <span>###</span> <span>###</span></div>
+        <div><span>###</span> <span>###</span> <span>###</span> <span>###</span></div>
+        <div><span>###</span> <span>###</span> <span>###</span> <span>###</span></div>
+    </div>
+    <div id="main">
+	<div class="top2">
+		<h1>NIGERIAN TOUR-GUIDE</h1>
+	</div>
+	<div class="state">
+		<h1>ENUGU STATE <span id="italics">(Coal City State)</span></h1>
+	</div>
+	<div class="state-info">
+		<h3>Enugu State, located in southeastern Nigeria, is known for its role as a major coal mining region and its rich cultural traditions. The state’s capital is Enugu city, which serves as an important commercial and administrative center. Enugu has a diverse economy with significant contributions from mining, agriculture, and trade. It is celebrated for its educational institutions, including the University of Nigeria, Nsukka. The state's cultural heritage is highlighted through various festivals and historical landmarks.</h3>
+	</div>
+	<div class="state">
+		<h1>GALLERY</h1>
+	</div>
+
+	<div class="gallery">
+		
+		<div>
+			<div class="image-left"><img src="images\enugu2.jpg" width="100%" height="100%"></div> 
+
+			<div class="image-right"><img src="images\enugu3.jpeg" width="100%" height="100%"></div>
+		</div>
+
+		<div>
+			<div class="image-left"><img src="images\enugu1.jpg" width="100%" height="100%"></div> 
+
+			<div class="image-right"><img src="images\enugu4.jpg" width="100%" height="100%"></div>
+		</div>
+	</div>
+	</div>
+	<script>
+        function showElement() {
+            document.getElementById('hiddenElement').style.display = 'block';
+            document.getElementById('main').style.display = 'none';
+        }
+        function closeElement() {
+            document.getElementById('hiddenElement').style.display = 'none';
+            document.getElementById('main').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>

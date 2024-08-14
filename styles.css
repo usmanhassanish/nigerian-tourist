@@ -1,0 +1,108 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: trebuchet ms;
+}
+body
+{
+	background-color: #0f4d0f;
+}
+top
+{
+	overflow: auto;
+}
+.left
+{
+	float: left;
+	width: 33.33%;
+	height: 40px;
+	background-color: #0f4d0f;
+}
+.mid
+{
+	float: left;
+	width: 33.33%;
+	height: 40px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	border-bottom: 2px solid #0f4d0f;
+}
+.right
+{
+	float: left;
+	width: 33.33%;
+	height: 40px;
+	background-color: #0f4d0f;
+}
+.top2
+{
+	
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+.logo
+{
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.state
+{
+	text-align: center;
+	color: white;
+	width: 90%;
+	margin-top: 12px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#italics
+{
+	font-style: italic;
+	color: navajowhite;
+}
+.state-info
+{
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;
+	width: 90%;
+	margin-top: 12px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.gallery
+{
+	margin-top: 10px;
+}
+.image-left
+{
+	width: 40%;
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 160px;
+	float: left;
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: white;
+}
+.image-right
+{
+	width: 40%;
+	height: 160px;
+	margin-top: 50px;
+	border-radius: 5px;
+	border: 2px solid white;
+	float: left;
+	background-color: white;
+}
+#hiddenElement 
+{
+    display: none;
+    background-color: white; 
+    text-align: center;
+}
